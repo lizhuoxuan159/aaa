@@ -1,0 +1,970 @@
+# ═══════ 数码解码 · NEBULA-DECODE Clash 订阅 ═══════
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - name: "vpn.lizhuoxuan.com"
+    type: vless
+    server: vpn.lizhuoxuan.com
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "vpn.lizhuoxuan.com-trojan"
+    type: trojan
+    server: vpn.lizhuoxuan.com
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "cf.090227.xyz"
+    type: vless
+    server: cf.090227.xyz
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "cf.090227.xyz-trojan"
+    type: trojan
+    server: cf.090227.xyz
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "bestcf.top"
+    type: vless
+    server: bestcf.top
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "bestcf.top-trojan"
+    type: trojan
+    server: bestcf.top
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "cloudflare.182682.xyz"
+    type: vless
+    server: cloudflare.182682.xyz
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "cloudflare.182682.xyz-trojan"
+    type: trojan
+    server: cloudflare.182682.xyz
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "cf.zhetengsha.eu.org"
+    type: vless
+    server: cf.zhetengsha.eu.org
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "cf.zhetengsha.eu.org-trojan"
+    type: trojan
+    server: cf.zhetengsha.eu.org
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-104.28.0.1"
+    type: vless
+    server: 104.28.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-104.28.0.1-trojan"
+    type: trojan
+    server: 104.28.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-172.64.145.1"
+    type: vless
+    server: 172.64.145.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-172.64.145.1-trojan"
+    type: trojan
+    server: 172.64.145.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-103.21.244.1"
+    type: vless
+    server: 103.21.244.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-103.21.244.1-trojan"
+    type: trojan
+    server: 103.21.244.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-173.245.48.1"
+    type: vless
+    server: 173.245.48.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "HK-IP-173.245.48.1-trojan"
+    type: trojan
+    server: 173.245.48.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-104.26.0.1"
+    type: vless
+    server: 104.26.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-104.26.0.1-trojan"
+    type: trojan
+    server: 104.26.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-104.27.0.1"
+    type: vless
+    server: 104.27.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-104.27.0.1-trojan"
+    type: trojan
+    server: 104.27.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-162.159.46.1"
+    type: vless
+    server: 162.159.46.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-162.159.46.1-trojan"
+    type: trojan
+    server: 162.159.46.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-198.41.128.1"
+    type: vless
+    server: 198.41.128.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "SG-IP-198.41.128.1-trojan"
+    type: trojan
+    server: 198.41.128.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-104.24.0.1"
+    type: vless
+    server: 104.24.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-104.24.0.1-trojan"
+    type: trojan
+    server: 104.24.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-104.25.0.1"
+    type: vless
+    server: 104.25.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-104.25.0.1-trojan"
+    type: trojan
+    server: 104.25.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-162.159.36.1"
+    type: vless
+    server: 162.159.36.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-162.159.36.1-trojan"
+    type: trojan
+    server: 162.159.36.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-197.234.240.1"
+    type: vless
+    server: 197.234.240.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "JP-IP-197.234.240.1-trojan"
+    type: trojan
+    server: 197.234.240.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.16.0.1"
+    type: vless
+    server: 104.16.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.16.0.1-trojan"
+    type: trojan
+    server: 104.16.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.17.0.1"
+    type: vless
+    server: 104.17.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.17.0.1-trojan"
+    type: trojan
+    server: 104.17.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.18.0.1"
+    type: vless
+    server: 104.18.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.18.0.1-trojan"
+    type: trojan
+    server: 104.18.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.19.0.1"
+    type: vless
+    server: 104.19.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-104.19.0.1-trojan"
+    type: trojan
+    server: 104.19.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-172.64.0.1"
+    type: vless
+    server: 172.64.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-172.64.0.1-trojan"
+    type: trojan
+    server: 172.64.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-172.67.0.1"
+    type: vless
+    server: 172.67.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-172.67.0.1-trojan"
+    type: trojan
+    server: 172.67.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-162.159.0.1"
+    type: vless
+    server: 162.159.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "US-IP-162.159.0.1-trojan"
+    type: trojan
+    server: 162.159.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-104.21.0.1"
+    type: vless
+    server: 104.21.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-104.21.0.1-trojan"
+    type: trojan
+    server: 104.21.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-104.22.0.1"
+    type: vless
+    server: 104.22.0.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-104.22.0.1-trojan"
+    type: trojan
+    server: 104.22.0.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-172.64.80.1"
+    type: vless
+    server: 172.64.80.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-172.64.80.1-trojan"
+    type: trojan
+    server: 172.64.80.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-188.114.96.1"
+    type: vless
+    server: 188.114.96.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-188.114.96.1-trojan"
+    type: trojan
+    server: 188.114.96.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-190.93.240.1"
+    type: vless
+    server: 190.93.240.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "EU-IP-190.93.240.1-trojan"
+    type: trojan
+    server: 190.93.240.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-103.22.200.1"
+    type: vless
+    server: 103.22.200.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-103.22.200.1-trojan"
+    type: trojan
+    server: 103.22.200.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-103.31.4.1"
+    type: vless
+    server: 103.31.4.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-103.31.4.1-trojan"
+    type: trojan
+    server: 103.31.4.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-108.162.192.1"
+    type: vless
+    server: 108.162.192.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-108.162.192.1-trojan"
+    type: trojan
+    server: 108.162.192.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-131.0.72.1"
+    type: vless
+    server: 131.0.72.1
+    port: 443
+    udp: true
+    uuid: e28e06f6-af4a-43ec-88b1-02d84e86774c
+    flow: ""
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+  - name: "GLOBAL-IP-131.0.72.1-trojan"
+    type: trojan
+    server: 131.0.72.1
+    port: 443
+    udp: true
+    password: "b591c0a9363f1962b9519a0463571282eecbe8d8a066c87abc491b5d5c861d95ac155dd7679a573159af9e94fc77b88252e74688fba824ddc5a6e577be05afb0"
+    tls: true
+    servername: "vpn.lizhuoxuan.com"
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/vpn?ed=2048"
+      headers:
+        Host: "vpn.lizhuoxuan.com"
+proxy-groups:
+  - name: "NEBULA-DECODE"
+    type: select
+    proxies: ["vpn.lizhuoxuan.com", "vpn.lizhuoxuan.com-trojan", "cf.090227.xyz", "cf.090227.xyz-trojan", "bestcf.top", "bestcf.top-trojan", "cloudflare.182682.xyz", "cloudflare.182682.xyz-trojan", "cf.zhetengsha.eu.org", "cf.zhetengsha.eu.org-trojan", "HK-IP-104.28.0.1", "HK-IP-104.28.0.1-trojan", "HK-IP-172.64.145.1", "HK-IP-172.64.145.1-trojan", "HK-IP-103.21.244.1", "HK-IP-103.21.244.1-trojan", "HK-IP-173.245.48.1", "HK-IP-173.245.48.1-trojan", "SG-IP-104.26.0.1", "SG-IP-104.26.0.1-trojan", "SG-IP-104.27.0.1", "SG-IP-104.27.0.1-trojan", "SG-IP-162.159.46.1", "SG-IP-162.159.46.1-trojan", "SG-IP-198.41.128.1", "SG-IP-198.41.128.1-trojan", "JP-IP-104.24.0.1", "JP-IP-104.24.0.1-trojan", "JP-IP-104.25.0.1", "JP-IP-104.25.0.1-trojan", "JP-IP-162.159.36.1", "JP-IP-162.159.36.1-trojan", "JP-IP-197.234.240.1", "JP-IP-197.234.240.1-trojan", "US-IP-104.16.0.1", "US-IP-104.16.0.1-trojan", "US-IP-104.17.0.1", "US-IP-104.17.0.1-trojan", "US-IP-104.18.0.1", "US-IP-104.18.0.1-trojan", "US-IP-104.19.0.1", "US-IP-104.19.0.1-trojan", "US-IP-172.64.0.1", "US-IP-172.64.0.1-trojan", "US-IP-172.67.0.1", "US-IP-172.67.0.1-trojan", "US-IP-162.159.0.1", "US-IP-162.159.0.1-trojan", "EU-IP-104.21.0.1", "EU-IP-104.21.0.1-trojan", "EU-IP-104.22.0.1", "EU-IP-104.22.0.1-trojan", "EU-IP-172.64.80.1", "EU-IP-172.64.80.1-trojan", "EU-IP-188.114.96.1", "EU-IP-188.114.96.1-trojan", "EU-IP-190.93.240.1", "EU-IP-190.93.240.1-trojan", "GLOBAL-IP-103.22.200.1", "GLOBAL-IP-103.22.200.1-trojan", "GLOBAL-IP-103.31.4.1", "GLOBAL-IP-103.31.4.1-trojan", "GLOBAL-IP-108.162.192.1", "GLOBAL-IP-108.162.192.1-trojan", "GLOBAL-IP-131.0.72.1", "GLOBAL-IP-131.0.72.1-trojan", DIRECT]
+rules:
+  - MATCH,NEBULA-DECODE
