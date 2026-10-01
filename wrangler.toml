@@ -7,7 +7,7 @@ pages_build_output_dir = "public"
 # 然后把下面 id 替换为命令输出的 namespace_id
 [[kv_namespaces]]
 binding = "KV"
-id = "请替换为你的KV命名空间ID"
+id = "c4d35b22cdfe40af8815788d3b05b204"
 
 # 可选：环境变量（不配置则使用默认值，面板修改后优先级最高）
 [vars]
